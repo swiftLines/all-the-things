@@ -47,6 +47,9 @@ const App = () => {
         'farm to market',
       ],
     },
+    {
+      image: "https://upload.wikimedia.org/wikipedia/en/b/bb/General_Iroh.jpg"
+    }
   ])
 
   const [bensThings, setBensThings] = useState([
