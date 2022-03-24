@@ -119,6 +119,17 @@ const App = () => {
       image: 'https://i.imgur.com/q9zgcaP.jpg',
       attributes: ['pastry?', 'food?', 'edible?', 'Horrible when toasted!'],
     },
+    {
+      name: 'Jeremy',
+      image:
+        'https://images.unsplash.com/photo-1518644730709-0835105d9daa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
+      attributes: [
+        'eggs',
+        'bacon',
+        'bisquits and sausage gravy',
+        "french toast",
+      ],
+    },
   ])
 
   const [huntersThings, setHuntersThings] = useState([
